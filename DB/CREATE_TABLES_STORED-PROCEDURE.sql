@@ -137,7 +137,7 @@ BEGIN
         FOREIGN KEY (listingID) REFERENCES listings(listingID)
     );
 
-    -- Other tables and indexes can be created similarly...
+    -- All tables added
 END$$
 
 DELIMITER ;
